@@ -19,6 +19,7 @@ function Persons() {
         {todaysBirthday.map((person) => {
           return <Person {...person}></Person>;
         })}
+        <input type="date" id="dateField"></input>
         <button type="button" className="btn">
           Change Date
         </button>
